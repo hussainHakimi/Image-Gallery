@@ -24,8 +24,6 @@ body {
   color:white;
   text-align: center;
   align-items:center;
-  /* Safari transitionend event.propertyName === flex */
-  /* Chrome + FF transitionend event.propertyName === flex-grow */
   transition:
     font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
     flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
@@ -64,7 +62,7 @@ body {
 
 .panel p {
   text-transform: uppercase;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'helvetica neue', cursive;
   text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
   font-size: 2em;
 }
